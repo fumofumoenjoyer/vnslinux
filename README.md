@@ -18,34 +18,10 @@ Let's go to the point: open a terminal, type sudo nano /etc/locale.gen and uncom
 Now that you have Japanese locale active on your system, you're able to run programs with a Japanese coding by just adding LANG="ja_JP.UTF-8" before typing the program's name on terminal.Ex. LANG="ja_JP.UTF-8" wine clannad.exe will Launch Clannad running in a Japanese coded wine.
 Extra tips and notes
 
-    I could be a lil bit annoying to be launching your games from terminal and having to copy/paste this env variable of JP locale. So that's why I recommended Lutris. When you add your game to library, just go to System Options tab and scroll down to Environment Variables. There you can add LANG and ja_JP.UTF-8 to the game which need it.
+   I could be a lil bit annoying to be launching your games from terminal and having to copy/paste this env variable of JP locale. So that's why I recommended Lutris. When you add your game to library, just go to System Options tab and scroll down to Environment Variables. There you can add LANG and ja_JP.UTF-8 to the game which need it.
 
-    Before launching any game check if you have to install any custom fonts. If so, then don't install it on your Linux (lol), but simply copy it to ~/.wine/drive_c/windows/Fonts/. Or use winetricks.
+   Before launching any game check if you have to install any custom fonts. If so, then don't install it on your Linux (lol), but simply copy it to ~/.wine/drive_c/windows/Fonts/. Or use winetricks.
 
-    Some novels doesn't need the JP locale added to run, so try launching the game normally and if crashes or doesn't load well, then try with locale. I'll add two examples at the end of this post.
+   Some novels doesn't need the JP locale added to run, so try launching the game normally and if crashes or doesn't load well, then try with locale. I'll add two examples at the end of this post.
 
-Here some screenshots:
-r/visualnovels - Nekopara in full Japanese
-Nekopara in full Japanese
 
-r/visualnovels - Failed to display Japanese characters
-Failed to display Japanese characters
-
-r/visualnovels - Re-running wine with Japanese locale
-Re-running wine with Japanese locale
-
-r/visualnovels - Flowers - Sur le eté fully running in normal wine
-Flowers - Sur le eté fully running in normal wine
-
-r/visualnovels - Hollow Ataraxia impossible to run in normal wine, so let's try with JP locale env variable
-Hollow Ataraxia impossible to run in normal wine, so let's try with JP locale env variable
-
-r/visualnovels - Wonderful
-Wonderful
-
-r/visualnovels - Fate Stay Night Realta Nua
-Fate Stay Night Realta Nua
-
-Other novels I've tried and wonderfully working: CLANNAD, G-senjou, Phenomeno, Saya no uta, Tsukihime, Sharin no kuni, Katawa Shoujo, School Days HQ, Tomoyo After...
-
-List of novels I've not manage to make them run on Linux: Grisaia no Kajitsu
