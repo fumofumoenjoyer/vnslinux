@@ -1,4 +1,7 @@
 # vnslinux
+
+Original reddit post [Here](https://www.reddit.com/r/visualnovels/comments/mga4d6/tutorial_how_to_run_any_visual_novel_on_linux/) i created this repo for safekeeping purposes, credits to the original writer.
+
  [tutorial] How to run any visual novel on Linux (pretty much)
 
 In this mini post I'll try to explain how you can run almost any visual novel in Linux with a native Japanese locale, since this topic is hard to find newbie-friendly on Google.If you already know how to play windows games on Linux, about Vulkan and stuff, and you're looking up for Japanese locale on Linux then jump to the second section.
